@@ -1,0 +1,163 @@
+@font-face {
+    font-family: Play-Bold;
+    src: url(../fonts/20289.ttf);
+}
+.body{
+    margin: 0;
+    background: #f8f8f8;
+    font-family: Play-Bold;
+    font-size: 18px;
+}
+.fix_conteiner{
+    margin: auto;
+    width: 1000px;
+}
+.header{
+    border-radius: 0 0 20px 20px;
+}
+.footer{
+    border-radius: 20px 20px 0 0;
+}
+.header-ul{
+    display: flex;
+    flex-direction: row;
+}
+.header-ul__li{
+    margin: 0px 20px;
+}
+.-li{
+    list-style: none;
+}
+.-link{
+    text-decoration: none;
+    color: black;
+}
+.-backgroundhead{
+    padding: 20px;
+    background: red;
+}
+.-color{
+    color: white;
+}
+.-background{
+    padding: 20px;
+    background: white;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+.-flex-center{
+    display: flex;
+    justify-content: center;
+}
+.section-advantages{
+    flex-wrap: wrap;
+}
+.article-advantages{
+    margin: 30px;
+    width: 220px;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 15px;
+}
+.-h-color{
+    color: red;
+}
+.-text-center{
+    text-align: center;
+}
+.form-send{
+    display: flex;
+    flex-direction: column;
+}
+.-flex-between{
+    display: flex;
+    justify-content: space-between;
+}
+.article-products__img{
+    width: 200px;
+    justify-self: center;
+}
+.-margin{
+    margin: 20px 0;
+}
+#form-send__input-file{
+    display: none;
+}
+.form-send__button{
+    margin-top: 20px;
+}
+.footer-ul__img{
+    width: 25px;
+}
+.footer__ul{
+    margin: 0;
+}
+.-margin-nav{
+    margin-bottom: 5px;
+}
+.form-send__input{
+    padding: 10px;
+    width: 400px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.-button{
+    padding: 20px;
+    background: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Play-Bold';
+}
+.-button:hover{
+    color: white;
+    background: black;
+}
+.section-form{
+    align-items: center;
+}
+.article-advantages__img{
+    width: 20px;
+}
+.section-products{
+    flex-wrap: wrap;
+}
+.section-products__p{
+    text-align: center;
+}
+.-numbers{
+    font-size: 18px;
+    color: red;
+}
+.table-price__tr{
+    border-bottom: 1px solid black;
+}
+.tr__th{
+    margin-left: 10px;
+}
+.ul-price__li{
+    font-size: 16px;
+}
+.-image-size{
+    background-size: 20px;
+    padding-left: 30px;
+}
+.-image-comfortable{
+    background: url(../img/) no-repeat;
+}
+.-image-fast{
+    background: url(../img/5_minut.svg) no-repeat;
+}
+.-image-profitably{
+    background: url(../img/percentage_1.svg) no-repeat;
+}
+.-image-no{
+    background: url(../img/icons8-отменить-2-64.png) no-repeat;
+    background-size: 22px;
+}
+.-image-briliant{
+    background: url(../img/icons8-бриллиант-64.png) no-repeat;
+    background-size: 23px;
+}

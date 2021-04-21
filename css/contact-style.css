@@ -1,0 +1,9 @@
+.section-url{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.article-url__p__a{
+    color: red;
+    text-decoration: none;
+}

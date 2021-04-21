@@ -1,0 +1,28 @@
+.section-visitors{
+    padding-bottom: 70px;
+    flex-wrap: wrap;
+}
+.section-visitors__h2{
+    padding-bottom: 50px;
+}
+.article-visitors{
+    padding: 15px;
+    background: white;
+    border: 1px solid black;
+}
+.article-visitors__img{
+    width: 800px;
+}
+.-right{
+    margin-left: auto;
+    transform: rotate(-10deg);
+    transition: 0.8s;
+}
+.-left{
+    transform: rotate(10deg);
+    transition: 0.8s;
+}
+.-right:hover, .-left:hover{
+    transform: rotate(0deg);
+    transition: 0.8s;
+}
