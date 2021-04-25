@@ -1,4 +1,7 @@
-$(function(){
-    var select=$(".article-form__input").slider('value');
-    $(".h2__span").append(select)
-})
+$(function() {
+    var el;
+    $("#slider").change(function() {
+        el = $(this);
+        el.next("#price").text(el.val());
+    }).trigger('change');
+});

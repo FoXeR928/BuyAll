@@ -2,6 +2,7 @@
     font-family: Play-Bold;
     src: url(../fonts/20289.ttf);
 }
+
 .body{
     margin: 0;
     background: #f8f8f8;
@@ -11,6 +12,24 @@
 .fix_conteiner{
     margin: auto;
     width: 1000px;
+}
+.dialog-conteiner{
+    background-color: rgba(252, 252, 252, 0.308);
+    display: none;
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+}
+.dialog-ask{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    margin: 300px auto;
+}
+.dialog-ask__p{
+    color: white;
 }
 .header{
     border-radius: 0 0 20px 20px;
@@ -95,6 +114,31 @@
 }
 .-margin-nav{
     margin-bottom: 5px;
+}
+.article-form{
+    display: flex;
+    flex-direction: column;
+}
+.article-form__input{
+    -webkit-appearance: none;
+    height: 7px;
+    padding: 10px 5px;
+    border-radius: 20px;
+    background: red;
+}
+.article-form__input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 35px;
+    height: 35px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background: white;
+}
+.article-form__output{
+    margin-top: 20px;
+    color: red;
+    font-size: 20px;
 }
 .form-send__input{
     padding: 10px;

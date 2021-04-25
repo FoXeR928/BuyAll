@@ -8,205 +8,214 @@
     <link rel="stylesheet" href="css/sait-style.css">
     <script src="js/jquery.min.js"></script>
     <script src="js/slider.js"></script>
-    <script src="js/jquery-ui.js"></script>
+    <script src="js/info.js"></script>
     <title>Ломбард</title>
 </head>
 <body class="body">
-        <header class="header -backgroundhead">
-            <div class="fix_conteiner -flex-between">
-                <img src="" class='logo'alt="" class="header__logo">
-                <nav class="header-nav">
-                    <ul class="header-ul">
-                        <li class="header-ul__li -li"><a class="header-ul__li-link -link -color" href="sait.html">Главная</a></li>
-                        <li class="header-ul__li -li"><a class="header-ul__li-link -link -color" href="html/estimation.html">Оценка</a></li>
-                        <li class="header-ul__li -li"><a class="header-ul__li-link -link -color" href="html/border.html">Займ</a></li>
-                        <li class="header-ul__li -li"><a class="header-ul__li-link -link -color" href="html/contact.html">Контакты</a></li>
-                        <li class="header-ul__li -li"><a class="header-ul__li-link -link -color" href="html/about.html">О нас</a></li>
-                    </ul>
-                </nav>
-                <a class="header__a-link -link -color" href="tel:88005553535">8(800)555-35-35</a>
-            </div>
-        </header>
-        <div class="fix_conteiner">
-            <main class="main -margin">
-                <section class="section-proposal -margin">
-                    <article class="article-proposal">
-                        <h2 class="section-proposal__h2">Даём деньги под залог</h2>
-                        <p class="section-proposal__p">Компания  — надежный помощник в затруднительном материальном положении. Мы принимаем на реализацию драгоценности, меховые изделия и многое другое. Наша задача — предоставить клиенту необходимую сумму в минимальные сроки.</p>
-                        <a href="html/estimation.html" class="section-proposal__a-link -link -button">Оценка</a>
-                    </article>
-                </section>
-                <section class="section-advantages -margin -flex-center">
-                    <article class="article-advantages -background -flex-center">
-                        <h3 class="article-advantages__h3 -h-color -text-center -image-size -image-comfortable">УДОБНО</h3>
-                        <p class="article-advantages__p -text-center">Посетите ближайший из более, чем <span class="p__span -numbe">350</span> ломбардов. Вам понадобится только паспорт.</p>
-                    </article>
-                    <article class="article-advantages -background -flex-center">
-                        <h3 class="article-advantages__h3 -h-color -text-center -image-size -image-fast">БЫСТРО</h3>
-                        <p class="article-advantages__p -text-center">Опытный сотрудник быстро проведет оценку и подберет оптимальные условия.</p>
-                    </article>
-                    <article class="article-advantages -background -flex-center">
-                        <h3 class="article-advantages__h3 -h-color -text-center -image-size -image-profitably">ВЫГОДНО</h3>
-                        <p class="article-advantages__p -text-center">Лучшие тарифы для Вас. Получите более <span class="p__span -numbe">1 000 000</span> рублей в день обращения.</p>
-                    </article>
-                    <article class="article-advantages -background -flex-center">
-                        <h3 class="article-advantages__h3 -h-color -text-center -image-size -image-no">БЕЗ ОГРАНИЧЕНИЙ</h3>
-                        <p class="article-advantages__p -text-center">Вы можете взять неограниченную сумму займов</p>
-                    </article>
-                    <article class="article-advantages -background -flex-center">
-                        <h3 class="article-advantages__h3 -h-color -text-center -image-size -image-briliant">БРИЛЛИАНТЫ</h3>
-                        <p class="article-advantages__p -text-center">Высокая оценка изделий с бриллиантами</p>
-                    </article>
-                </section>
-                <section class="section-products -flex-between -margin -background">
-                    <article class="article-products">
-                        <img class="article-products__img" src="img/01B1824.jpg" alt="">
-                    </article>
-                    <article class="article-products">
-                        <img class="article-products__img" src="img/-.jpg" alt="">
-                    </article>
-                    <article class="article-products">
-                        <img class="article-products__img" src="img/babaimage_gold_bars_png_psdgraphics.jpg" alt="">
-                    </article>
-                    <article class="article-products">
-                        <img class="article-products__img" src="img/kartinki-bytovoj-tehniki-21.jpg" alt="">
-                    </article>
-                    <p class="section-products__p">Приносите нам серебренные украшение, красивые ожерелья и подвески, а так же золото и золотые укрышения и не забудьте о бытовой техние, мы заберём всё.</p>
-                </section>
-                <section class="section-form -flex-between -margin">
-                    <article class="article-form -background">
-                        <input type="range" id='slider' min="10000" max="1000000" value="10000">
-                    </article>
-                    <form class="form-send -background">
-                        <h2 class="form-send__h2">Сумма займа:<span class="h2__span"></span></h2>
-                        <label class="form-send__label" for="">Ф.И.О</label>
-                        <input class="form-send__input -margin" type="text">
-                        <label class="form-send__label" for="">Номер телефона</label>
-                        <input class="form-send__input -margin" type="tel">
-                        <label class="form-send__label" for="">Промокод</label>
-                        <input class="form-send__input -margin" type="text">
-                        <label class="form-send__label-button -button" for="form-send__input-file">Добавть фотографию</label>
-                        <input id="form-send__input-file"type="file" accept="image/*">
-                        <button class="form-send__button -button">Отправить</button>
-                    </form>
-                </section>
-                <section class="section-price -background -flex-between">
-                    <article class="article-price">
-                        <h2 class="article-price__h2">Золото</h2>
-                        <table class="article-price__table-price">
-                            <tr class="table-price__tr">
-                                <th class="tr__th">Проба</th>
-                                <th class="tr__th">Цена скупки</th>
-                                <th class="tr__th">Цена обмена</th>
-                            </tr>
-                            <tr class="table-price__tr">
-                                <th class="tr__th">375</th>
-                                <th class="tr__th -numbers">1550</th>
-                                <th class="tr__th -numbers">1650</th>
-                            </tr>
-                            <tr class="table-price__tr">
-                                <th class="tr__th">500</th>
-                                <th class="tr__th -numbers">2070</th>
-                                <th class="tr__th -numbers">2170</th>
-                            </tr>
-                            <tr class="table-price__tr">
-                                <th class="tr__th">583</th>
-                                <th class="tr__th -numbers">2420</th>
-                                <th class="tr__th -numbers">2520</th>
-                            </tr>
-                            <tr class="table-price__tr">
-                                <th class="tr__th">585</th>
-                                <th class="tr__th -numbers">2420</th>
-                                <th class="tr__th -numbers">2520</th>
-                            </tr>
-                            <tr class="table-price__tr">
-                                <th class="tr__th">750</th>
-                                <th class="tr__th -numbers">3100</th>
-                                <th class="tr__th -numbers">3200</th>
-                            </tr>
-                            <tr class="table-price__tr">
-                                <th class="tr__th">850</th>
-                                <th class="tr__th -numbers">3515</th>
-                                <th class="tr__th -numbers">3605</th>
-                            </tr>
-                            <tr class="table-price__tr">
-                                <th class="tr__th">900</th>
-                                <th class="tr__th -numbers">3725</th>
-                                <th class="tr__th -numbers">3825</th>
-                            </tr>
-                            <tr class="table-price__tr">
-                                <th class="tr__th">958</th>
-                                <th class="tr__th -numbers">3965</th>
-                                <th class="tr__th -numbers">4050</th>
-                            </tr>
-                        </table>
-                    </article>
-                    <article class="article-price__h2">
-                        <h2>Серебро</h2>
-                        <table class="article-price__table-price">
-                            <tr class="table-price__tr">
-                                <th class="tr__th">Проба</th>
-                                <th class="tr__th">Цена скупки</th>
-                                <th class="tr__th">Цена обмена</th>
-                            </tr>
-                            <tr class="table-price__tr">
-                                <th class="tr__th">875</th>
-                                <th class="tr__th -numbers">50</th>
-                                <th class="tr__th -numbers">50</th>
-                            </tr>
-                            <tr class="table-price__tr">
-                                <th class="tr__th">916</th>
-                                <th class="tr__th -numbers">50</th>
-                                <th class="tr__th -numbers">50</th>
-                            </tr>
-                            <tr class="table-price__tr">
-                                <th class="tr__th">925</th>
-                                <th class="tr__th -numbers">50</th>
-                                <th class="tr__th -numbers">50</th>
-                            </tr>
-                            <tr class="table-price__tr">
-                                <th class="tr__th">960</th>
-                                <th class="tr__th -numbers">50</th>
-                                <th class="tr__th -numbers">50</th>
-                            </tr>
-                        </table>
-                    </article>
-                    <article class="atticle-price-about">
-                        <h3 class="atticle-price-about__h3 -h-color">Скупка</h3>
-                        <ul class="atticle-price-about__ul-price">
-                            <li class="ul-price__li">быстрое решение возникшей финансовой проблемы;</li>
-                            <li class="ul-price__li">деньги в день обращения;</li>
-                            <li class="ul-price__li">шаговая доступность;</li>
-                        </ul>
-                        <h3 class="atticle-price-about__h3 -h-color">Обмен</h3>
-                        <ul class="atticle-price-about__ul-price">
-                            <li class="ul-price__li">для обмена вы можете сдать свои золотые изделия в любом состоянии;</li>
-                            <li class="ul-price__li">определение пробы и взвешивание происходит в присутствии клиента;</li>
-                            <li class="ul-price__li">эксперт производит диагностику металла только с согласия клиента;</li>
-                        </ul>
-                    </article>
-                </section>
-            </main>
-        </div>
-        <footer class="footer -backgroundhead -flex-between">
-            <div class="fix_conteiner -flex-between">
-                <img src="" alt="">
-                <nav class="footer__nav">
-                    <ul class="footer__ul">
-                        <li class="footer-ul__li -li -margin-nav"><a class="footer-ul__li-link -link -color" href="sait.html">Главная</a></li>
-                        <li class="footer-ul__li -li -margin-nav"><a class="footer-ul__li-link -link -color" href="./html/estimation.html">Оценка</a></li>
-                        <li class="footer-ul__li -li -margin-nav"><a class="footer-ul__li-link -link -color" href="./html/border.html">Займ</a></li>
-                        <li class="footer-ul__li -li -margin-nav"><a class="footer-ul__li-link -link -color" href="./html/contact.html">Контакты</a></li>
-                        <li class="footer-ul__li -li -margin-nav"><a class="footer-ul__li-link -link -color" href="./html/about.html">О нас</a></li>
-                    </ul>
-                </nav>
-                <ul class="footer__ul">
-                    <li class="footer-ul__li -li"><a class="footer-ul__link" href="https://vk.com/"><img class="footer-ul__img" src="img/icons8-vk-в-круге-48.png" alt="вк"></a></li>
-                    <li class="footer-ul__li -li"><a class="footer-ul__link" href="https://web.whatsapp.com"><img class="footer-ul__img" src="img/icons8-whatsapp-48.png" alt="whatsapp"></a></li>
-                    <li class="footer-ul__li -li"><a class="footer-ul__link" href="https://web.telegram.org"><img class="footer-ul__img" src="img/icons8-телеграмма-app-48.png" alt="телеграмм"></a></li>
-                    <li class="footer-ul__li -li"><a class="footer-ul__link" href="https://www.instagram.com"><img class="footer-ul__img" src="img/icons8-instagram-48.png" alt=""></a></li>
+    <div class="dialog-conteiner">
+        <dialog class="dialog-ask -background">
+            <p class="dialog-askp">Мы вам обязательно с вами свяжемся</p>
+            <button class="dialog-askbutton -button">Ок</button>
+        </dialog>
+    </div>
+    <header class="header -backgroundhead">
+        <div class="fix_conteiner -flex-between">
+            <img src="" class='logo'alt="" class="header__logo">
+            <nav class="header-nav">
+                <ul class="header-ul">
+                    <li class="header-ul__li -li"><a class="header-ul__li-link -link -color" href="sait.html">Главная</a></li>
+                    <li class="header-ul__li -li"><a class="header-ul__li-link -link -color" href="html/estimation.html">Оценка</a></li>
+                    <li class="header-ul__li -li"><a class="header-ul__li-link -link -color" href="html/border.html">Займ</a></li>
+                    <li class="header-ul__li -li"><a class="header-ul__li-link -link -color" href="html/contact.html">Контакты</a></li>
+                    <li class="header-ul__li -li"><a class="header-ul__li-link -link -color" href="html/about.html">О нас</a></li>
                 </ul>
-            </div>
-        </footer>
+            </nav>
+            <a class="header__a-link -link -color" href="tel:88005553535">8(800)555-35-35</a>
+        </div>
+    </header>
+    <div class="fix_conteiner">
+        <main class="main -margin">
+            <section class="section-proposal -margin">
+                <article class="article-proposal">
+                    <h2 class="section-proposal__h2">Даём деньги под залог</h2>
+                    <p class="section-proposal__p">Компания  — надежный помощник в затруднительном материальном положении. Мы принимаем на реализацию драгоценности, меховые изделия и многое другое. Наша задача — предоставить клиенту необходимую сумму в минимальные сроки.</p>
+                    <a href="html/estimation.html" class="section-proposal__a-link -link -button">Оценка</a>
+                </article>
+            </section>
+            <section class="section-advantages -margin -flex-center">
+                <article class="article-advantages -background -flex-center">
+                    <h3 class="article-advantages__h3 -h-color -text-center -image-size -image-comfortable">УДОБНО</h3>
+                    <p class="article-advantages__p -text-center">Посетите ближайший из более, чем <span class="p__span -numbe">350</span> ломбардов. Вам понадобится только паспорт.</p>
+                </article>
+                <article class="article-advantages -background -flex-center">
+                    <h3 class="article-advantages__h3 -h-color -text-center -image-size -image-fast">БЫСТРО</h3>
+                    <p class="article-advantages__p -text-center">Опытный сотрудник быстро проведет оценку и подберет оптимальные условия.</p>
+                </article>
+                <article class="article-advantages -background -flex-center">
+                    <h3 class="article-advantages__h3 -h-color -text-center -image-size -image-profitably">ВЫГОДНО</h3>
+                    <p class="article-advantages__p -text-center">Лучшие тарифы для Вас. Получите более <span class="p__span -numbe">1 000 000</span> рублей в день обращения.</p>
+                </article>
+                <article class="article-advantages -background -flex-center">
+                    <h3 class="article-advantages__h3 -h-color -text-center -image-size -image-no">БЕЗ ОГРАНИЧЕНИЙ</h3>
+                    <p class="article-advantages__p -text-center">Вы можете взять неограниченную сумму займов</p>
+                </article>
+                <article class="article-advantages -background -flex-center">
+                    <h3 class="article-advantages__h3 -h-color -text-center -image-size -image-briliant">БРИЛЛИАНТЫ</h3>
+                    <p class="article-advantages__p -text-center">Высокая оценка изделий с бриллиантами</p>
+                </article>
+            </section>
+            <section class="section-products -flex-between -margin -background">
+                <article class="article-products">
+                    <img class="article-products__img" src="img/01B1824.jpg" alt="">
+                </article>
+                <article class="article-products">
+                    <img class="article-products__img" src="img/-.jpg" alt="">
+                </article>
+                <article class="article-products">
+                    <img class="article-products__img" src="img/babaimage_gold_bars_png_psdgraphics.jpg" alt="">
+                </article>
+                <article class="article-products">
+                    <img class="article-products__img" src="img/kartinki-bytovoj-tehniki-21.jpg" alt="">
+                </article>
+                <p class="section-products__p">Приносите нам серебренные украшение, красивые ожерелья и подвески, а так же золото и золотые укрышения и не забудьте о бытовой техние, мы заберём всё.</p>
+            </section>
+            <section class="section-form -flex-between -margin">
+                <article class="article-form -background">
+                    <h2>Выберите желаемую сумму займа</h2>
+                    <input type="range" class="article-form__input" id="slider" min="10000" max="1000000" value="10000">
+                    <output class="article-form__output" id="price" for="slider"></output>
+                    <p>Сумма займа, в рублях</p>                    
+                </article>
+                <form class="form-send -background">
+                    <h2 class="form-send__h2">Оставьте ваши контакты</h2>
+                    <label class="form-send__label" for="">Ф.И.О</label>
+                    <input class="form-send__input -margin" name="name" type="text">
+                    <label class="form-send__label" for="">Номер телефона</label>
+                    <input class="form-send__input -margin" name="number" type="tel">
+                    <label class="form-send__label" for="">Промокод</label>
+                    <input class="form-send__input -margin" type="text">
+                    <label class="form-send__label-button -button" for="form-send__input-file">Добавть фотографию</label>
+                    <input id="form-send__input-file"type="file" accept="image/*">
+                    <button class="form-send__button -button">Отправить</button>
+                </form>
+            </section>
+            <section class="section-price -background -flex-between">
+                <article class="article-price">
+                    <h2 class="article-price__h2">Золото</h2>
+                    <table class="article-price__table-price">
+                        <tr class="table-price__tr">
+                            <th class="tr__th">Проба</th>
+                            <th class="tr__th">Цена скупки</th>
+                            <th class="tr__th">Цена обмена</th>
+                        </tr>
+                        <tr class="table-price__tr">
+                            <th class="tr__th">375</th>
+                            <th class="tr__th -numbers">1550</th>
+                            <th class="tr__th -numbers">1650</th>
+                        </tr>
+                        <tr class="table-price__tr">
+                            <th class="tr__th">500</th>
+                            <th class="tr__th -numbers">2070</th>
+                            <th class="tr__th -numbers">2170</th>
+                        </tr>
+                        <tr class="table-price__tr">
+                            <th class="tr__th">583</th>
+                            <th class="tr__th -numbers">2420</th>
+                            <th class="tr__th -numbers">2520</th>
+                        </tr>
+                        <tr class="table-price__tr">
+                            <th class="tr__th">585</th>
+                            <th class="tr__th -numbers">2420</th>
+                            <th class="tr__th -numbers">2520</th>
+                        </tr>
+                        <tr class="table-price__tr">
+                            <th class="tr__th">750</th>
+                            <th class="tr__th -numbers">3100</th>
+                            <th class="tr__th -numbers">3200</th>
+                        </tr>
+                        <tr class="table-price__tr">
+                            <th class="tr__th">850</th>
+                            <th class="tr__th -numbers">3515</th>
+                            <th class="tr__th -numbers">3605</th>
+                        </tr>
+                        <tr class="table-price__tr">
+                            <th class="tr__th">900</th>
+                            <th class="tr__th -numbers">3725</th>
+                            <th class="tr__th -numbers">3825</th>
+                        </tr>
+                        <tr class="table-price__tr">
+                            <th class="tr__th">958</th>
+                            <th class="tr__th -numbers">3965</th>
+                            <th class="tr__th -numbers">4050</th>
+                        </tr>
+                    </table>
+                </article>
+                <article class="article-price__h2">
+                    <h2>Серебро</h2>
+                    <table class="article-price__table-price">
+                        <tr class="table-price__tr">
+                            <th class="tr__th">Проба</th>
+                            <th class="tr__th">Цена скупки</th>
+                            <th class="tr__th">Цена обмена</th>
+                        </tr>
+                        <tr class="table-price__tr">
+                            <th class="tr__th">875</th>
+                            <th class="tr__th -numbers">50</th>
+                            <th class="tr__th -numbers">50</th>
+                        </tr>
+                        <tr class="table-price__tr">
+                            <th class="tr__th">916</th>
+                            <th class="tr__th -numbers">50</th>
+                            <th class="tr__th -numbers">50</th>
+                        </tr>
+                        <tr class="table-price__tr">
+                            <th class="tr__th">925</th>
+                            <th class="tr__th -numbers">50</th>
+                            <th class="tr__th -numbers">50</th>
+                        </tr>
+                        <tr class="table-price__tr">
+                            <th class="tr__th">960</th>
+                            <th class="tr__th -numbers">50</th>
+                            <th class="tr__th -numbers">50</th>
+                        </tr>
+                    </table>
+                </article>
+                <article class="atticle-price-about">
+                    <h3 class="atticle-price-about__h3 -h-color">Скупка</h3>
+                    <ul class="atticle-price-about__ul-price">
+                        <li class="ul-price__li">быстрое решение возникшей финансовой проблемы;</li>
+                        <li class="ul-price__li">деньги в день обращения;</li>
+                        <li class="ul-price__li">шаговая доступность;</li>
+                    </ul>
+                    <h3 class="atticle-price-about__h3 -h-color">Обмен</h3>
+                    <ul class="atticle-price-about__ul-price">
+                        <li class="ul-price__li">для обмена вы можете сдать свои золотые изделия в любом состоянии;</li>
+                        <li class="ul-price__li">определение пробы и взвешивание происходит в присутствии клиента;</li>
+                        <li class="ul-price__li">эксперт производит диагностику металла только с согласия клиента;</li>
+                    </ul>
+                </article>
+            </section>
+        </main>
+    </div>
+    <footer class="footer -backgroundhead -flex-between">
+        <div class="fix_conteiner -flex-between">
+            <img src="" alt="">
+            <nav class="footer__nav">
+                <ul class="footer__ul">
+                    <li class="footer-ul__li -li -margin-nav"><a class="footer-ul__li-link -link -color" href="sait.html">Главная</a></li>
+                    <li class="footer-ul__li -li -margin-nav"><a class="footer-ul__li-link -link -color" href="./html/estimation.html">Оценка</a></li>
+                    <li class="footer-ul__li -li -margin-nav"><a class="footer-ul__li-link -link -color" href="./html/border.html">Займ</a></li>
+                    <li class="footer-ul__li -li -margin-nav"><a class="footer-ul__li-link -link -color" href="./html/contact.html">Контакты</a></li>
+                    <li class="footer-ul__li -li -margin-nav"><a class="footer-ul__li-link -link -color" href="./html/about.html">О нас</a></li>
+                </ul>
+            </nav>
+            <ul class="footer__ul">
+                <li class="footer-ul__li -li"><a class="footer-ul__link" href="https://vk.com/"><img class="footer-ul__img" src="img/icons8-vk-в-круге-48.png" alt="вк"></a></li>
+                <li class="footer-ul__li -li"><a class="footer-ul__link" href="https://web.whatsapp.com"><img class="footer-ul__img" src="img/icons8-whatsapp-48.png" alt="whatsapp"></a></li>
+                <li class="footer-ul__li -li"><a class="footer-ul__link" href="https://web.telegram.org"><img class="footer-ul__img" src="img/icons8-телеграмма-app-48.png" alt="телеграмм"></a></li>
+                <li class="footer-ul__li -li"><a class="footer-ul__link" href="https://www.instagram.com"><img class="footer-ul__img" src="img/icons8-instagram-48.png" alt=""></a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
