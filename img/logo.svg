@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 24.3.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 975 356" style="enable-background:new 0 0 975 356;" xml:space="preserve">
+	 viewBox="0 0 1005 373" style="enable-background:new 0 0 1005 373;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#FFFFFF;}
-	.st1{font-family:'Impact';}
-	.st2{font-size:150px;}
-	.st3{letter-spacing:6;}
-	.st4{fill:none;stroke:#B60000;stroke-width:5;stroke-miterlimit:10;}
+	.st0{fill:none;}
+	.st1{fill:#FFFFFF;stroke:#FF0000;stroke-width:5;stroke-miterlimit:10;}
+	.st2{font-family:'Impact';}
+	.st3{font-size:150px;}
 </style>
-<text transform="matrix(1 0 0 1 11.1362 152.7241)" class="st0 st1 st2 st3">ПОЗОЛОЧЁНАЯ</text>
-<text transform="matrix(1 0 0 1 11.1362 152.7241)" class="st4 st1 st2 st3">ПОЗОЛОЧЁНАЯ</text>
-<text transform="matrix(1 0 0 1 283.4662 332.7241)" class="st0 st1 st2 st3">РУЧКА</text>
-<text transform="matrix(1 0 0 1 283.4662 332.7241)" class="st4 st1 st2 st3">РУЧКА</text>
+<rect x="-195.38" y="36.21" class="st0" width="1392.24" height="518.1"/>
+<text transform="matrix(1 0 0 1 17.0498 154.855)"><tspan x="0" y="0" class="st1 st2 st3">ПОЗОЛОЧЁННАЯ</tspan><tspan x="291.47" y="180" class="st1 st2 st3">РУЧКА</tspan></text>
 </svg>
