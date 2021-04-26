@@ -2,7 +2,6 @@
     font-family: Play-Bold;
     src: url(../fonts/20289.ttf);
 }
-
 .body{
     margin: 0;
     background: #f8f8f8;
@@ -34,8 +33,14 @@
 .header{
     border-radius: 0 0 20px 20px;
 }
+.header__img{
+    width: 155px;
+}
 .footer{
     border-radius: 20px 20px 0 0;
+}
+.footer__img{
+    width: 250px;
 }
 .header-ul{
     display: flex;
@@ -121,6 +126,7 @@
 }
 .article-form__input{
     -webkit-appearance: none;
+    outline: none;
     height: 7px;
     padding: 10px 5px;
     border-radius: 20px;
@@ -154,6 +160,7 @@
     text-align: center;
     font-size: 18px;
     font-family: 'Play-Bold';
+    outline: none;
 }
 .-button:hover{
     color: white;
@@ -189,7 +196,8 @@
     padding-left: 30px;
 }
 .-image-comfortable{
-    background: url(../img/) no-repeat;
+    background: url(../img/icons8-checkmark-250.png) no-repeat;
+    background-size: 22px
 }
 .-image-fast{
     background: url(../img/5_minut.svg) no-repeat;
